@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- New Teal and Coral Theme Colors -->
+    <color name="teal_primary">#008080</color>
+    <color name="teal_dark">#006666</color>
+    <color name="teal_light">#5FB3B3</color>
+    <color name="teal_lighter">#A0D8D8</color>
+    <color name="coral_accent">#FF6B6B</color>
+    <color name="coral_light">#FF8E8E</color>
+    <color name="coral_dark">#E85555</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_light_teal">#F0F8F8</color>
+    <color name="background_dark">#1C1C1C</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_teal">#008080</color>
+    <color name="text_coral">#FF6B6B</color>
+</resources>

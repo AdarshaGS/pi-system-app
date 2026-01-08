@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Piggy Bank Body -->
+    <path
+        android:fillColor="@color/teal_lighter"
+        android:pathData="M100,60 C120,60 140,70 150,90 C155,105 155,120 150,135 C140,155 120,165 100,165 C80,165 60,155 50,135 C45,120 45,105 50,90 C60,70 80,60 100,60 Z" />
+
+    <!-- Coin Slot -->
+    <path
+        android:fillColor="@color/coral_accent"
+        android:pathData="M85,65 L115,65 L115,75 L85,75 Z" />
+
+    <!-- Coin -->
+    <path
+        android:fillColor="@color/coral_accent"
+        android:pathData="M100,45 C108,45 115,52 115,60 C115,68 108,75 100,75 C92,75 85,68 85,60 C85,52 92,45 100,45 Z" />
+
+    <!-- Dollar Sign on Coin -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M100,52 L100,68 M95,55 L105,55 M95,65 L105,65"
+        android:strokeWidth="2"
+        android:strokeColor="@color/white" />
+</vector>
+

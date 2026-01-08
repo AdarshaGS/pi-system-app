@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_stocks"
+        android:icon="@drawable/ic_stocks"
+        android:title="Stocks" />
+
+    <item
+        android:id="@+id/navigation_networth"
+        android:icon="@drawable/ic_networth"
+        android:title="Net Worth" />
+
+    <item
+        android:id="@+id/navigation_loans"
+        android:icon="@drawable/ic_loans"
+        android:title="Loans" />
+</menu>
+

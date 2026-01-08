@@ -1,0 +1,18 @@
+package com.example.pi_system.data.remote
+
+import com.example.pi_system.data.model.AuthResponse
+import com.example.pi_system.data.model.LoginRequest
+import com.example.pi_system.data.model.RegisterRequest
+import retrofit2.Response
+import retrofit2.http.Body
+import retrofit2.http.POST
+
+interface AuthApiService {
+
+    @POST("api/auth/register")
+    suspend fun register(@Body request: RegisterRequest): Response<AuthResponse>
+
+    @POST("api/auth/login")
+    suspend fun login(@Body request: LoginRequest): Response<AuthResponse>
+}
+
